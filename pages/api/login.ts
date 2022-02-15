@@ -5,7 +5,7 @@ export default (
     res : NextApiResponse
 ) => {
     if(req.method === 'POST'){
-        const {login, senha} =req.body;
+        const {login, senha} = req.body;
         
         if(login === 'admin@admin.com' &&
         senha === 'Admin@123'){
